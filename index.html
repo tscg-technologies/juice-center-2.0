@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juice Center | Freshness in Every Sip</title>
+  <meta name="description" content="Discover refreshing fruit juices, creamy milkshakes, delicious smoothies, and flavourful beverages at Juice Center. Freshness in every sip.">
+  <meta property="og:title" content="Juice Center | Freshness in Every Sip">
+  <meta property="og:description" content="Explore fresh fruit juices, smoothies, shakes, and mocktails prepared with 100% natural ingredients.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- GLOBAL HEADER -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="site-logo" aria-label="Juice Center Home">
+        <span class="site-logo-icon">🍊</span>
+        <span class="site-logo-text">JUICE <span>CENTER</span></span>
+      </a>
+
+      <!-- Desktop & Mobile Navigation Links -->
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="menu.html" class="nav-link">Menu</a>
+       
+        <a href="milkshakes.html" class="nav-link">Milkshakes</a>
+       
+        <a href="gallery.html" class="nav-link">Gallery</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <button class="cart-toggle-btn" aria-label="View shopping cart" title="Cart">
+          🛒
+          <span class="cart-badge" style="display: none;">0</span>
+        </button>
+        <a href="menu.html" class="btn btn-primary btn-sm">Order Now</a>
+        <button class="mobile-nav-toggle" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="hero-badge">
+              <span class="hero-badge-dot"></span>
+              <span class="hero-badge-text">100% Cold-Pressed &amp; Naturally Refreshing</span>
+            </div>
+            <h1 class="hero-title">Freshness in <span>Every Sip.</span></h1>
+            <p class="hero-description">
+              Discover refreshing fruit juices, creamy milkshakes, delicious smoothies, and flavourful beverages prepared for your everyday refreshment.
+            </p>
+            <div class="hero-actions">
+              <a href="menu.html" class="btn btn-primary btn-lg">Order Now</a>
+              <a href="menu.html" class="btn btn-outline btn-lg">Explore Our Menu</a>
+            </div>
+            <div class="hero-stats">
+              <div class="stat-item">
+                <h3>100%</h3>
+                <p>Natural Fruit Extracts</p>
+              </div>
+              <div class="stat-item">
+                <h3>25+</h3>
+                <p>Refreshing Beverages</p>
+              </div>
+              <div class="stat-item">
+                <h3>Pure</h3>
+                <p>Hygienic Preparation</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-media">
+            <div class="hero-card-main">
+              <div class="image-placeholder placeholder-hero">
+                <img src="assets/images/hero-juice-spread.jpg" alt="Juice Center Beverage Spread" loading="eager" onerror="this.style.display='none'">
+                <span class="placeholder-icon" style="font-size: 4rem;">🍹</span>
+                <span class="placeholder-label">JUICE CENTER HERO IMAGE</span>
+              </div>
+            </div>
+
+            <!-- Floating Highlights -->
+            <div class="hero-floating-badge badge-top-left">
+              <span class="floating-icon">🍊</span>
+              <div class="floating-text">
+                <strong>Fresh Citrus</strong>
+                <span>Cold pressed daily</span>
+              </div>
+            </div>
+
+            <div class="hero-floating-badge badge-bottom-right">
+              <span class="floating-icon">🍓</span>
+              <div class="floating-text">
+                <strong>Pure &amp; Creamy</strong>
+                <span>Wholesome smoothies</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- POPULAR BEVERAGE CATEGORIES -->
+    <section class="section section-bg-white">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Beverage Showcase</span>
+          <h2 class="section-title">Popular Drink Categories</h2>
+          <p class="section-subtitle">
+            From zesty cold-pressed citrus to decadent thick milkshakes, explore handcrafted categories designed for healthy lifestyles.
+          </p>
+        </div>
+
+        <div class="category-highlight-grid">
+          <!-- Fresh Juices Card -->
+          <a href="fresh-juices.html" class="category-highlight-card">
+            <div class="category-icon-circle" style="background: rgba(243, 154, 54, 0.15);">🍊</div>
+            <h3 class="feature-title">Fresh Fruit Juices</h3>
+            <p class="feature-text">Pure squeezed orange, watermelon, sweet lime, and seasonal fruit elixirs.</p>
+            <span class="btn btn-outline btn-sm" style="margin-top: 1.2rem;">View Juices →</span>
+          </a>
+
+          <!-- Milkshakes Card -->
+          <a href="milkshakes.html" class="category-highlight-card">
+            <div class="category-icon-circle" style="background: rgba(145, 184, 62, 0.15);">🍫</div>
+            <h3 class="feature-title">Milkshakes</h3>
+            <p class="feature-text">Creamy, frosty concoctions including classic chocolate, vanilla, and strawberry.</p>
+            <span class="btn btn-outline btn-sm" style="margin-top: 1.2rem;">View Shakes →</span>
+          </a>
+
+          <!-- Smoothies Card -->
+          <a href="milkshakes.html" class="category-highlight-card">
+            <div class="category-icon-circle" style="background: rgba(230, 91, 91, 0.15);">🥭</div>
+            <h3 class="feature-title">Smoothies</h3>
+            <p class="feature-text">Nutrient-dense thick smoothies loaded with real mango, berries, and yogurt.</p>
+            <span class="btn btn-outline btn-sm" style="margin-top: 1.2rem;">View Smoothies →</span>
+          </a>
+
+          <!-- Special Drinks Card -->
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- BEST-SELLING DRINKS SECTION -->
+    <section class="section section-bg-cream">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag tag-orange">Top Favorites</span>
+          <h2 class="section-title">Best-Selling Drinks</h2>
+          <p class="section-subtitle">
+            Curated customer favorites freshly prepared to order. Click "Add" to place a demo order directly into your cart!
+          </p>
+        </div>
+
+        <div class="beverage-grid" id="homeBestSellers">
+          <!-- Beverage Card 1: Fresh Orange Juice -->
+          <article class="beverage-card">
+            <div class="beverage-card-media">
+              <div class="image-placeholder placeholder-orange">
+                <img src="assets/images/orange-juice.jpg" alt="Fresh Orange Juice" loading="lazy" onerror="this.style.display='none'">
+                <span class="placeholder-icon">🍊</span>
+                <span class="placeholder-label">FRESH ORANGE JUICE IMAGE</span>
+              </div>
+              <span class="beverage-badge-veg" title="Vegetarian"></span>
+              <span class="beverage-tag">★ Best Seller</span>
+            </div>
+            <div class="beverage-card-body">
+              <h3 class="beverage-title">Fresh Orange Juice</h3>
+              <p class="beverage-desc">Pure cold-pressed sweet citrus oranges packed with natural vitamin C and invigorating zest.</p>
+              <div class="beverage-card-footer">
+                <div class="beverage-price">₹60 <span>/ glass</span></div>
+                <button class="btn btn-add-cart" onclick="addToCart('fj-1')"><span>+</span> Add</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Beverage Card 2: Watermelon Juice -->
+          <article class="beverage-card">
+            <div class="beverage-card-media">
+              <div class="image-placeholder placeholder-watermelon">
+                <img src="assets/images/watermelon-juice.jpg" alt="Watermelon Juice" loading="lazy" onerror="this.style.display='none'">
+                <span class="placeholder-icon">🍉</span>
+                <span class="placeholder-label">WATERMELON JUICE IMAGE</span>
+              </div>
+              <span class="beverage-badge-veg" title="Vegetarian"></span>
+              <span class="beverage-tag">★ Best Seller</span>
+            </div>
+            <div class="beverage-card-body">
+              <h3 class="beverage-title">Watermelon Juice</h3>
+              <p class="beverage-desc">Hydrating, naturally sweet ruby red watermelon nectar, freshly crushed on ice.</p>
+              <div class="beverage-card-footer">
+                <div class="beverage-price">₹50 <span>/ glass</span></div>
+                <button class="btn btn-add-cart" onclick="addToCart('fj-2')"><span>+</span> Add</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Beverage Card 3: Chocolate Milkshake -->
+          <article class="beverage-card">
+            <div class="beverage-card-media">
+              <div class="image-placeholder placeholder-chocolate">
+                <img src="assets/images/chocolate-milkshake.jpg" alt="Chocolate Milkshake" loading="lazy" onerror="this.style.display='none'">
+                <span class="placeholder-icon">🍫</span>
+                <span class="placeholder-label">CHOCOLATE MILKSHAKE IMAGE</span>
+              </div>
+              <span class="beverage-badge-veg" title="Vegetarian"></span>
+              <span class="beverage-tag">★ Popular</span>
+            </div>
+            <div class="beverage-card-body">
+              <h3 class="beverage-title">Chocolate Milkshake</h3>
+              <p class="beverage-desc">Velvety rich cocoa syrup churned with chilled whole milk and creamy vanilla ice cream.</p>
+              <div class="beverage-card-footer">
+                <div class="beverage-price">₹90 <span>/ glass</span></div>
+                <button class="btn btn-add-cart" onclick="addToCart('ms-1')"><span>+</span> Add</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Beverage Card 4: Mango Smoothie -->
+          <article class="beverage-card">
+            <div class="beverage-card-media">
+              <div class="image-placeholder placeholder-mango">
+                <img src="assets/images/mango-smoothie.jpg" alt="Mango Smoothie" loading="lazy" onerror="this.style.display='none'">
+                <span class="placeholder-icon">🥭</span>
+                <span class="placeholder-label">MANGO SMOOTHIE IMAGE</span>
+              </div>
+              <span class="beverage-badge-veg" title="Vegetarian"></span>
+              <span class="beverage-tag">★ Seasonal Favorite</span>
+            </div>
+            <div class="beverage-card-body">
+              <h3 class="beverage-title">Mango Smoothie</h3>
+              <p class="beverage-desc">Thick, frosty golden mango smoothie blended with chilled natural yogurt and honey.</p>
+              <div class="beverage-card-footer">
+                <div class="beverage-price">₹100 <span>/ glass</span></div>
+                <button class="btn btn-add-cart" onclick="addToCart('sm-1')"><span>+</span> Add</button>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem;">
+          <a href="menu.html" class="btn btn-secondary btn-lg">View Complete 25+ Menu Items →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY CHOOSE JUICE CENTER SECTION -->
+    <section class="section section-bg-white">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Our Promise</span>
+          <h2 class="section-title">Why Choose Juice Center?</h2>
+          <p class="section-subtitle">
+            We are dedicated to pure refreshment, pristine hygiene, and exceptional taste in every single cup.
+          </p>
+        </div>
+
+        <div class="feature-grid">
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">🌱</div>
+            <h3 class="feature-title">100% Fresh Produce</h3>
+            <p class="feature-text">Every drink is extracted from farm-fresh, carefully hand-inspected seasonal fruits.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">✨</div>
+            <h3 class="feature-title">Pure &amp; Hygienic</h3>
+            <p class="feature-text">Prepared in sanitized stainless-steel equipment with strict food handling standards.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">🍯</div>
+            <h3 class="feature-title">Natural Ingredients</h3>
+            <p class="feature-text">No artificial coloring or harsh chemical additives. Pure fruit sweetness and healthy goodness.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">⚡</div>
+            <h3 class="feature-title">Quick &amp; Convenient</h3>
+            <p class="feature-text">Freshly pressed in minutes, ready for dine-in comfort or convenient takeaway.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEASONAL SPECIALS & FALOODA HIGHLIGHT -->
+    <section class="section section-bg-subtle">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag tag-watermelon">Special Treats</span>
+          <h2 class="section-title">Royal Falooda &amp; Coolers</h2>
+          <p class="section-subtitle">
+            Indulgent multi-layered desserts and sparkling handcrafted mocktails for special refreshment moments.
+          </p>
+        </div>
+
+        <div class="beverage-grid">
+          <!-- Falooda -->
+          <article class="beverage-card">
+            <div class="beverage-card-media">
+              <div class="image-placeholder placeholder-pomegranate">
+                <img src="assets/images/royal-falooda.jpg" alt="Classic Rose Falooda" loading="lazy" onerror="this.style.display='none'">
+                <span class="placeholder-icon">🍨</span>
+                <span class="placeholder-label">FALOODA IMAGE</span>
+              </div>
+              <span class="beverage-badge-veg" title="Vegetarian"></span>
+              <span class="beverage-tag">Signature</span>
+            </div>
+            <div class="beverage-card-body">
+              <h3 class="beverage-title">Classic Rose Falooda</h3>
+              <p class="beverage-desc">Layered with aromatic rose syrup, vermicelli, sabja seeds, creamy chilled milk, and vanilla ice cream.</p>
+              <div class="beverage-card-footer">
+                <div class="beverage-price">₹100 <span>/ serving</span></div>
+                <button class="btn btn-add-cart" onclick="addToCart('fl-1')"><span>+</span> Add</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Virgin Mojito -->
+          <article class="beverage-card">
+            <div class="beverage-card-media">
+              <div class="image-placeholder placeholder-green">
+                <img src="assets/images/virgin-mojito.jpg" alt="Virgin Mojito" loading="lazy" onerror="this.style.display='none'">
+                <span class="placeholder-icon">🌱</span>
+                <span class="placeholder-label">VIRGIN MOJITO IMAGE</span>
+              </div>
+              <span class="beverage-badge-veg" title="Vegetarian"></span>
+              <span class="beverage-tag">Chilled</span>
+            </div>
+            <div class="beverage-card-body">
+              <h3 class="beverage-title">Virgin Mojito</h3>
+              <p class="beverage-desc">Freshly muddled garden mint, tangy lime wedges, raw sugar syrup, and fizzy soda over crushed ice.</p>
+              <div class="beverage-card-footer">
+                <div class="beverage-price">₹90 <span>/ glass</span></div>
+                <button class="btn btn-add-cart" onclick="addToCart('sp-1')"><span>+</span> Add</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Pomegranate Juice -->
+          <article class="beverage-card">
+            <div class="beverage-card-media">
+              <div class="image-placeholder placeholder-pomegranate">
+                <img src="assets/images/pomegranate-juice.jpg" alt="Pomegranate Juice" loading="lazy" onerror="this.style.display='none'">
+                <span class="placeholder-icon">🫐</span>
+                <span class="placeholder-label">POMEGRANATE JUICE IMAGE</span>
+              </div>
+              <span class="beverage-badge-veg" title="Vegetarian"></span>
+              <span class="beverage-tag">Antioxidant</span>
+            </div>
+            <div class="beverage-card-body">
+              <h3 class="beverage-title">Pomegranate Juice</h3>
+              <p class="beverage-desc">Freshly pressed pure ruby red pomegranate pearls without added sugar or synthetic flavorings.</p>
+              <div class="beverage-card-footer">
+                <div class="beverage-price">₹80 <span>/ glass</span></div>
+                <button class="btn btn-add-cart" onclick="addToCart('fj-5')"><span>+</span> Add</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION (CLEARLY LABELED DEMO CONTENT) -->
+    <section class="section section-bg-white">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Community Feedback</span>
+          <h2 class="section-title">What Our Guests Say</h2>
+          <p class="section-subtitle">
+            <span class="demo-badge">★ Clearly labelled fictional demo content for presentation</span>
+          </p>
+        </div>
+
+        <div class="testimonial-grid">
+          <div class="testimonial-card">
+            <p class="testimonial-quote">
+              The fresh orange juice here is genuinely cold-pressed and pure. It has become my favorite post-workout refreshment stop in the morning!
+            </p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">A</div>
+              <div class="author-info">
+                <h4>Aditi Sharma</h4>
+                <p>Fitness Enthusiast &amp; Regular Guest</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <p class="testimonial-quote">
+              Their mango smoothie and Oreo milkshake are loved by my entire family. Pristine hygiene and quick friendly service every time.
+            </p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">R</div>
+              <div class="author-info">
+                <h4>Rahul Mehta</h4>
+                <p>Local Resident &amp; Parent</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <p class="testimonial-quote">
+              The Royal Falooda is unmatched in rich flavor and presentation. Juice Center is the ideal evening hangout after work.
+            </p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">P</div>
+              <div class="author-info">
+                <h4>Pooja Nair</h4>
+                <p>College Student &amp; Beverage Lover</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FREQUENTLY ASKED QUESTIONS SECTION -->
+    <section class="section section-bg-cream">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Got Questions?</span>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-subtitle">
+            Find answers to commonly asked questions about our beverage preparation, menu items, and demo ordering.
+          </p>
+        </div>
+
+        <div class="faq-list">
+          <div class="faq-item active">
+            <button class="faq-question">
+              <span>Do you add artificial preservatives or artificial colors?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>No, all beverages at Juice Center are prepared from natural fruit produce without artificial preservatives or synthetic food coloring. You can also request no added sugar.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Are all beverages 100% vegetarian?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Yes, all juices, shakes, smoothies, and mocktails served at Juice Center are 100% vegetarian. Milkshakes and smoothies utilize dairy milk and yogurt.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>How does the website demo ordering work?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>This website is an interactive frontend demonstration for portfolio presentation. You can add drinks to the cart, test quantity updates, and simulate checkout without real payment transactions or data storage.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Can I customize the sweetness or ice level of my juice?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Absolutely. During ordering or at our counter, you can request drinks with no sugar, raw jaggery, crushed ice, or without ice.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CALL TO ACTION BANNER -->
+    <section class="section section-bg-white">
+      <div class="container">
+        <div class="cta-banner">
+          <h2>Ready for Pure Natural Refreshment?</h2>
+          <p>
+            Explore our curated menu of cold-pressed juices, creamy smoothies, and revitalizing coolers today.
+          </p>
+          <div class="cta-actions">
+            <a href="menu.html" class="btn btn-secondary btn-lg">Order Your Drink Now</a>
+            <a href="contact.html" class="btn btn-outline-white btn-lg">Contact Juice Center</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- GLOBAL FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand Col -->
+        <div class="footer-col footer-brand">
+          <a href="index.html" class="site-logo">
+            <span class="site-logo-icon">🍊</span>
+            <span class="site-logo-text">JUICE <span>CENTER</span></span>
+          </a>
+          <p class="footer-desc">
+            Your destination for natural, freshly pressed fruit juices, luscious milkshakes, nourishing smoothies, and handcrafted beverages.
+          </p>
+          <div class="footer-social-links">
+            <a href="#" class="social-icon-btn" aria-label="Facebook">f</a>
+            <a href="#" class="social-icon-btn" aria-label="Instagram">in</a>
+            <a href="#" class="social-icon-btn" aria-label="Twitter">tw</a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="menu.html">Beverage Menu</a></li>
+            <li><a href="gallery.html">Photo Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Categories -->
+        <div class="footer-col">
+          <h4>Drink Menu</h4>
+          <ul class="footer-links">
+            <li><a href="fresh-juices.html">Fresh Fruit Juices</a></li>
+            <li><a href="milkshakes.html">Milkshakes &amp; Smoothies</a></li>
+            <li><a href="special-drinks.html">Special Mocktails</a></li>
+            <li><a href="special-drinks.html">Royal Falooda</a></li>
+            <li><a href="special-drinks.html">Fresh Lime Sodas</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact & Hours -->
+        <div class="footer-col">
+          <h4>Demo Details</h4>
+          <div class="footer-contact-info">
+            <div class="footer-contact-item">
+              <span>📍</span>
+              <span>Juice Center, Demo Street, Demo City, India</span>
+            </div>
+            <div class="footer-contact-item">
+              <span>📞</span>
+              <span>+91 90000 00000 (Demo Phone)</span>
+            </div>
+            <div class="footer-contact-item">
+              <span>✉️</span>
+              <span>demo@example.com</span>
+            </div>
+            <div class="footer-contact-item">
+              <span>⏰</span>
+              <span>Mon - Sat: 9:00 AM - 10:00 PM<br>Sun: 9:00 AM - 9:00 PM</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 JUICE CENTER. All rights reserved. Portfolio Frontend Demonstration.</p>
+        <div class="footer-legal-links">
+          <a href="#">Privacy Policy (Demo)</a>
+          <a href="#">Terms &amp; Conditions (Demo)</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SHOPPING CART DRAWER OVERLAY -->
+  <div class="cart-overlay" id="cartOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping Cart">
+    <div class="cart-drawer-header">
+      <h3><span>🛒</span> Your Beverage Cart</h3>
+      <button class="cart-close-btn" id="cartCloseBtn" aria-label="Close cart">✕</button>
+    </div>
+    <div class="cart-drawer-items" id="cartDrawerItems">
+      <!-- Items dynamically populated via JavaScript -->
+    </div>
+    <div class="cart-drawer-footer">
+      <div class="cart-summary-row">
+        <span>Subtotal</span>
+        <span id="cartSubtotal">₹0</span>
+      </div>
+      <div class="cart-summary-row">
+        <span>Demo Delivery</span>
+        <span id="cartDelivery">₹20</span>
+      </div>
+      <div class="cart-summary-row total-row">
+        <span>Demo Total</span>
+        <span id="cartGrandTotal">₹0</span>
+      </div>
+      <button class="btn btn-primary btn-block" id="cartCheckoutBtn">Proceed to Demo Checkout</button>
+    </div>
+  </aside>
+
+  <!-- DEMO CHECKOUT MODAL -->
+  <div class="modal" id="checkoutModal">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" id="checkoutCloseBtn" aria-label="Close modal">✕</button>
+      <div class="modal-header">
+        <span class="section-tag">Frontend Demo Only</span>
+        <h3>Complete Demo Order</h3>
+        <p>No real payments or data transmissions occur.</p>
+      </div>
+      <div id="modalOrderSummary"></div>
+      <form id="checkoutForm">
+        <div class="form-group">
+          <label class="form-label" for="orderName">Full Name *</label>
+          <input type="text" id="orderName" class="form-control" placeholder="e.g. Aditi Sharma" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="orderPhone">Phone Number *</label>
+          <input type="tel" id="orderPhone" class="form-control" placeholder="+91 90000 00000" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="orderAddress">Delivery / Pickup Address *</label>
+          <textarea id="orderAddress" class="form-control" rows="2" placeholder="Demo Address, Street, City" required></textarea>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="orderNotes">Special Preparation Instructions</label>
+          <input type="text" id="orderNotes" class="form-control" placeholder="e.g. Less ice, no added sugar">
+        </div>
+        <div style="display: flex; gap: 1rem; margin-top: 1.5rem;">
+          <button type="button" class="btn btn-outline" id="checkoutCancelBtn" style="flex: 1;">Cancel</button>
+          <button type="submit" class="btn btn-primary" style="flex: 2;">Confirm Demo Order</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- DEMO ORDER SUCCESS MODAL -->
+  <div class="modal" id="orderSuccessModal">
+    <div class="modal-dialog" style="text-align: center;">
+      <div style="font-size: 3.5rem; margin-bottom: 1rem;">🎉</div>
+      <span class="section-tag">Demo Simulation Confirmed</span>
+      <h3 style="margin: 0.5rem 0 1rem 0;">Thank You for Your Order!</h3>
+      <p style="margin-bottom: 1.5rem;">
+        Your demo order reference is: <strong id="confirmedOrderRef" style="color: var(--color-primary); font-size: 1.1rem;">JC-000000</strong>
+      </p>
+      <p style="font-size: 0.88rem; color: var(--color-charcoal-muted); margin-bottom: 2rem;">
+        This is a frontend demonstration website. No payment has been processed and no actual delivery will be dispatched.
+      </p>
+      <button class="btn btn-primary btn-block" id="successCloseBtn">Continue Exploring Menu</button>
+    </div>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top-btn" id="backToTop" aria-label="Back to top">↑</button>
+
+  <!-- Vanilla JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>
